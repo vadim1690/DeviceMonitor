@@ -12,8 +12,6 @@ public class DeviceMonitor {
 
     public DeviceMonitor() {
         devices = new ArrayList<>();
-        // Initialize the list with some devices
-
 
         // Start the timer to simulate status updates every few seconds
         statusUpdateTimer = new Timer();
@@ -28,7 +26,7 @@ public class DeviceMonitor {
         this.devices.add(device);
     }
 
-    public void removeDevice(Device selectedDevice) {
+    public void removeDevice(Device device) {
     }
 
 
